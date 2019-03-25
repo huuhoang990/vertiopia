@@ -1,0 +1,846 @@
+@media (max-width: 1360px)
+{    
+    .header{
+        background-position: 70% 50%;
+    }
+    
+    .logo{
+        left: 0px;
+    }
+    
+    .menu{
+        width: 100%;
+    }
+    
+    .menu-content{
+        width: 100%;
+    }
+    #cssmenu{
+        float:right;
+        text-align: right;
+        padding-right: 10px;
+    }    
+    .banner-content{
+        width:  100%;
+    }
+    
+    .line-1{
+        padding: 130px 0 0 100px;    
+        font-size: 30px;
+    }
+    .line-2{
+        font-size: 64px;
+    }
+    .line-3{
+        font-size: 20px;
+    }
+    .circle{
+        height: 180px;
+        width: 180px;
+        border-radius: 180px;
+        -moz-border-radius: 180px;
+        top: 150px;
+        font-size: 35px;
+    }    
+    
+    .wrapper-content{
+        width: 100%;
+    }
+    .items:first-child{
+        margin-left: 15px;
+    }
+    .items{
+        width: 21%;
+    }
+    .items a.title, .short-about .title, .our-team .title, .our-clients .title{    
+        font-size: 18px;        
+    }
+    .items .short-title, .short-about .short-title, .our-team .short-title, .our-clients .short-title{
+        font-size: 13px;
+    }
+    .items .description, .items ul{
+        font-size: 12px;
+    }
+    .short-about, .our-team{
+        width: 47%;
+        float: left;
+    }
+    
+    .short-about{
+        padding-left:  20px;
+    }
+    
+    .our-team{
+        padding-left: 20px;
+    }
+    
+    .our-team ul li{
+        display: inline-block;
+        float: left;
+        text-align: center;
+        padding-right: 10px;
+        font-weight: bold;
+    }
+    .our-team ul li div{
+        width: 120px;
+        height: 120px;
+        border-radius: 120px;
+        -moz-border-radius: 120px;    
+        -webkit-border-radius: 120px; 
+    }
+    .our-team ul li img{
+        width: 120px;
+        height: 120px;
+        border-radius: 120px;
+        -moz-border-radius: 120px;    
+        -webkit-border-radius: 120px; 
+    }    
+    .our-clients{
+        width: 98%;
+        padding-left: 20px;
+        float: left;
+    }
+    .client-wrapper-slider{
+        width: 95%;
+    }
+    
+    .client-slider-wrapper{
+        width: 99%;
+    }
+    
+    .footer{
+        
+    }
+    
+    .footer-content{
+        width: 100%;
+    }
+    
+    .social{
+        right: 20px;
+    }
+    .footer-menu{
+        padding-left: 20px;
+    }
+    .copyright{
+        padding-left: 20px;
+    }
+    
+    
+    .article-wrapper{
+        padding: 0 20px;
+    }
+    .quality-item{
+        width: 40%;
+        margin-left: 30px;
+    }
+    
+    .employee-item{
+        width: 65%;
+    }
+    .job-title{
+        width: 30%;
+    }
+    
+    .service-list{
+        width: 45%;
+    }
+    .service-list a img{
+        width: 99%;
+    }
+    
+    /*portfolio*/
+    .project-item:first-child{
+        margin-left: 20px;
+    } 
+    .project-item{
+        width: 28%;
+    }
+    
+    .project-item .image{
+        width: 97%;
+        height: 190px;
+    }
+	.project-item img{
+		 width: 97%;
+        height: 190px;
+	}
+    .project-item .task ul{
+        padding-left:  0px;
+    }
+    .task ul li:first-child a{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .task .or{
+        display: none !important;
+    }
+    .porfolio-link{
+        width: 100% !important;        
+    }
+    
+    .porfolio-link ul{
+        margin-left: 5% !important;
+    }
+    
+    
+    .contact-form .title{
+        padding-left: 50px !important;
+        font-size: 30px;
+    }
+    
+    .contact-right{
+        width: 45%;
+    }
+}
+
+
+@media (max-width: 1154px)
+{    
+    .header{
+    }
+    
+    #cssmenu > ul > li > a{
+        padding:20px 20px 0 20px;
+    }
+    
+    #cssmenu ul li.has-sub > a:hover, #cssmenu ul li.has-sub:hover > a{    
+        background-position: 5px 25px; 
+    }
+    #cssmenu > ul > li > a:hover, #cssmenu > ul > li > a.active{
+        background-position: 10px 25px; 
+    }    
+    .our-team ul li div{
+        width: 105px;
+        height: 105px;
+        border-radius: 105px;
+        -moz-border-radius: 105px;    
+        -webkit-border-radius: 105px; 
+    }
+    .our-team ul li img{
+        width: 105px;
+        height: 105px;
+        border-radius: 105px;
+        -moz-border-radius: 105px;    
+        -webkit-border-radius: 105px; 
+    }
+    .our-team ul li{
+        padding-right: 5px;
+    }
+    
+    .items ul{
+        padding-left: 40px;
+    }
+    
+    .project-item{
+        width: 27%;
+    }
+    .project-item{
+        height: 460px !important;
+    }
+    .task {
+        padding: 0 !important;
+        margin: 0 !important;
+        height: 77px !important; 
+    }
+    .task ul{
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .task ul li:first-child a{
+        clear: both;
+        margin: 5px 0 5px 20px !important;
+    }
+    .task ul li:last-child a{
+        clear: both;
+        margin: 0px 0 0px 20px !important;
+    }
+    
+    .contact-form{
+        width: 480px;
+    }
+    .contact-form .contact-field li.same-line{
+        width: 240px;
+    }
+    .contact-form .contact-field li.same-line-right{
+        padding-left: 0 !important;
+        width: 170px;
+    }
+    .contact-form .contact-field li.same-line input {
+        width: 158px;
+    }
+    .contact-form .contact-field li.one-line input, .contact-form .contact-field li.one-line textarea {
+        width: 400px;
+    }
+    .contact-form .contact-field li.one-line-last{
+        width: 431px;
+    }
+}
+
+
+@media (max-width: 1024px)
+{ 
+    .header{
+    }
+    .items{
+        width: 20%;
+    }
+    .line-1{
+        padding: 120px 0 0 100px;    
+        font-size: 28px;
+    }
+    .line-2{
+        font-size: 60px;
+        width: 600px;
+    }
+    .line-3{
+        font-size: 20px;
+        width: 600px;
+    }
+    
+    #cssmenu > ul > li > a{
+        font-size: 12px;
+        padding:20px 15px 0 15px;
+    }
+    #cssmenu ul li.has-sub > a:hover, #cssmenu ul li.has-sub:hover > a{    
+        background-position: 5px 23px; 
+    }
+    #cssmenu > ul > li > a:hover, #cssmenu > ul > li > a.active{
+        background-position: 5px 23px; 
+    }  
+    .items ul{
+        padding-left: 40px;        
+    }
+    
+    .quality-item{
+        width: 90%;
+        margin-left: 20px;
+    }
+    
+    .employee-item{
+        width: 95%;
+    }
+    .job-title{
+        width: 94%;
+        float: left;
+        padding-left: 30px;
+        padding-top: 0px;
+    }
+           
+    .project-item{
+        width: 26%;
+    }
+    .porfolio-link ul{
+    }
+    .porfolio-link ul li{
+        padding-right: 60px !important;
+    }
+    
+    .contact-right{
+        width: 45%;
+    }
+    .email-info ul li:last-child{
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 900px)
+{
+    .header{
+        background-position: top center;
+        background-size: 1000px 360px;
+        height: 360px;
+    }
+    .banner-content{
+        min-height: 360px;
+    }
+    .logo img{
+        width: 100px;
+    }
+    
+    .line-1{
+        padding: 50px 0 0 100px;    
+        font-size: 28px;
+    }
+    .line-2{
+        font-size: 50px;
+        width: 500px;
+    }
+    .line-3{
+        font-size: 18px;
+        width: 500px;
+    }
+    .circle{
+        top: 50px;
+        height: 150px;
+        width: 150px;
+        border-radius: 150px;
+        -moz-border-radius: 150px;        
+    }
+    .circle span{
+        padding-top: 30px;
+    }
+    .top-content{
+        padding-left: 70px;
+    }
+    .items{
+        width: 40%;
+    }
+    .items ul{
+        padding-left: 40px;
+        font-size: 13px;
+    }
+    .items ul  li{
+        padding: 0 10px;
+    }
+    .items img{
+        margin-right: 3px;
+    }
+    .items .read-more{
+        margin-top: 20px;
+    }
+    #items-3{
+        background:  none;
+    }
+    .our-team ul li div{        
+        width: 110px;
+        height: 110px;
+        border-radius: 110px;
+        -moz-border-radius: 110px;    
+        -webkit-border-radius: 110px; 
+    }
+    .our-team ul li img{
+        width: 110px;
+        height: 110px;
+        border-radius: 110px;
+        -moz-border-radius: 110px;    
+        -webkit-border-radius: 110px; 
+    }
+    
+    .our-team ul li{
+        padding:  5px 20px;
+    }
+    
+    .our-team .read-more{
+        padding-right:  50px;
+    }
+    .our-clients{
+        width: 96%;
+    }
+    .line-4{
+        padding-top: 100px;
+        font-size: 50px;
+    }
+    
+    
+    .quality-item{
+        width: 90%;
+        margin-left: 10px;
+    }
+    
+    .top-about-message{
+        width: 90%;
+        font-size: 25px;
+    }
+    
+    .service-list{
+        width: 99%;
+    }
+    .service-list-right{
+        width: 99%;
+        float: left !important;
+        padding-top: 30px;        
+    }
+    .service-separate{
+        border: 0;
+        margin-top: 0;
+        margin-bottom: 25px;
+    }
+    
+    
+    .porfolio-link ul{
+        padding-right: 40px !important;
+    }
+    
+    .project-item:first-child{
+        margin-left: 20px;
+    } 
+    .project-item{
+        width: 40% !important;
+        margin-right: 40px !important;
+    }
+    .project-item:first-child{
+        margin-left: 40px;
+    }
+    .project-last{
+        margin-left: 40px;
+    }
+    .project-item .image{
+        width: 97%;
+        height: 190px;
+    }
+    .project-item .task ul{
+        padding-left:  0px;
+    }
+    
+    .contact-form{
+        margin: 50px;    
+    }
+    
+    .contact-right{
+        width: 90%;
+        float: left;
+        padding-left: 30px;
+    }
+    
+    .email-info ul li:last-child{
+        padding-top: 0px;
+    }
+}
+
+
+@media (max-width: 800px)
+{ 
+    .header{
+    }   
+    
+    #cssmenu > ul > li > a{
+        font-size: 12px;
+        padding:20px 12px 0 12px;
+    }
+    #cssmenu ul li.has-sub > a:hover, #cssmenu ul li.has-sub:hover > a{    
+        background-position: 3px 23px; 
+    }
+    #cssmenu > ul > li > a:hover, #cssmenu > ul > li > a.active{
+        background-position: 3px 23px; 
+    }    
+    .circle{
+        right: 50px;
+    }
+    .bottom-content{
+        padding-left: 20px;
+    }
+    .our-clients{
+        width: 95%;
+    }
+    .line-4{
+        padding-top: 100px;
+        font-size: 30px;
+    }
+    .quality-item{
+        width: 85%;
+        margin-left: 0px;
+    }
+    .porfolio-link ul{
+        padding-left: 30px !important;
+    }
+    .porfolio-link ul li{
+        padding-right: 10px !important;
+    }
+    .contact-form{
+        margin: 30px;    
+    }
+}
+
+
+@media (max-width: 767px)
+{
+    .header{
+    }
+    #cssmenu > ul > li > a{
+        font-size: 11px;
+        padding:20px 10px 0 10px;
+    }
+    #cssmenu ul li.has-sub > a:hover, #cssmenu ul li.has-sub:hover > a{    
+        background-position: 2px 23px; 
+    }
+    #cssmenu > ul > li > a:hover, #cssmenu > ul > li > a.active{
+        background-position: 2px 23px; 
+    }    
+    .line-1{
+        padding: 50px 0 0 100px;    
+        font-size: 25px;
+    }
+    .line-2{
+        font-size: 40px;
+        width: 400px;
+    }
+    .line-3{
+        font-size: 15px;
+        width: 400px;
+    }
+    .top-content{
+        padding-left: 50px;
+    }
+    .bottom-content{
+        padding-left: 10px;
+    }
+    
+    .short-about, .our-team{
+        width: 46%;
+    }
+    .our-team ul li{
+        padding:  5px 8px;
+    }
+    
+    .our-clients{
+        width: 93%;
+    }
+    .contact-form{
+        margin: 30px;    
+    }
+}
+
+@media (max-width: 640px)
+{ 
+    .header{
+    }   
+    
+    .mobile-menu{
+        display: block;
+    }
+    
+    
+    .header{
+        background-position: top center;
+        background-size: 740px 266px;
+        height: 266px;
+    }
+    .banner-content{
+        min-height: 266px;
+    }
+    .menu{
+        background: none;
+        height: 0px;
+    }
+    #cssmenu{
+        display: none;
+    }
+    .line-1{
+        padding: 30px 0 0 120px;    
+        font-size: 20px;
+    }
+    .line-2{
+        font-size: 30px;
+        width: 300px;
+        padding-left: 120px;
+    }
+    .line-3{
+        font-size: 15px;
+        width: 300px;
+        padding-left: 120px;
+    }
+    
+    .circle{
+        top: 50px;
+        height: 100px;
+        width: 100px;
+        border-radius: 100px;
+        -moz-border-radius: 100px;        
+    }
+    .circle span{
+        padding-top: 20px;
+        font-size: 20px;
+    }
+    .short-about{
+        width: 100%;
+        padding: 20px 0px;
+        margin: 0;
+        background: none;
+    }
+    .our-team{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .our-team ul{
+    }
+    .our-team ul li{
+        padding: 5px 10px;
+    }
+    .our-team .read-more{
+        padding-right: 10px;
+    }
+    
+    .top-content{
+        padding: 0 0 0 10px;
+    }
+    .items{
+        width: 43%;
+        margin: 10px 0;
+        padding-left: 10px;
+    }
+    .items ul{
+        padding-left: 30px;
+        margin: 0;
+        font-size: 13px;
+    }
+    .items ul  li{
+        padding: 0 10px;
+    }    
+    .our-clients{
+        width: 90%;
+        padding-left: 10px;
+    }
+    .line-4{
+        padding-top: 80px;
+        font-size: 25px;
+        padding-right: 30px;
+    }
+    .line-4 span{
+        padding-left: 40px;
+    }
+    
+    .porfolio-link ul{
+        padding-left: 10px !important;
+    }
+    .porfolio-link ul li{
+        display: block !important;
+        clear: both !important;
+        margin: 0 0 20px 35% !important;
+    }
+    .project-item{
+        width: 380px !important;
+        margin-left: 15% !important;
+        margin-right: 0 !important
+    }
+    
+}
+@media (max-width: 600px)
+{ 
+    .header{
+        
+    }
+    .footer-content{
+    }
+    .footer-menu{
+        padding: 20px 0 5px 10px;
+    }
+    .copyright{
+        padding: 0 0 0 10px;
+    }
+    .social{
+        top: 45px;
+        right: 10px;
+    }
+    .line-4{
+        padding-top: 80px;
+        font-size: 20px;
+        padding-right: 20px;
+    }
+    .line-4 span{
+        padding-left: 40px;
+    }
+    .project-item{
+        margin-left: 10% !important;
+    }
+}
+@media (max-width: 480px)
+{ 
+    .header{
+    }
+    .circle{
+        top: 20px;
+        right: 20px;
+    }
+    .line-1{
+        padding: 70px 0 0 120px;    
+        font-size: 20px;
+    }
+    .line-2{
+        font-size: 27px;
+        width: 300px;
+        padding-left: 120px;
+    }
+    .line-3{
+        font-size: 15px;
+        width: 90%;
+        padding-left: 20px;
+    }
+    .top-content{
+        padding-left: 40px;
+    }
+    .items{
+        width: 90%;
+        background: none;
+    }
+    .items ul{
+        padding-left: 50px;
+    }
+    .footer-content{
+        text-align: center;
+    }
+    .footer-menu{
+        display: none;
+    }
+    .copyright{
+        float: none;
+        padding: 0;
+    }
+    .social{
+        float: none;
+        position: inherit;
+        padding: 15px 0 10px 40%;
+        margin: 0;
+        top: auto;
+        left: auto;
+        right: auto;
+        text-align: center;
+    }
+    .social ul li a, .social ul li a img{
+        float: none;
+    }
+    .our-clients{
+        width: 85%;
+    }
+    .project-item{
+        margin-left: 5% !important;
+    }
+}
+
+@media (max-width: 320px)
+{ 
+    .header{
+    }
+    .logo img{
+        width: 80px;
+    }
+    .circle{
+        top: 10px;
+        right: 10px;
+    }
+    .top-content{
+        padding-left: 20px;
+    }
+    .line-1{
+        padding: 85px 0 0 80px;    
+        font-size: 17px;
+    }
+    .line-2{
+        font-size: 20px;
+        width: 200px;
+        padding-left: 80px;
+    }
+    .line-3{
+        font-size: 15px;
+        width: 90%;
+        padding-left: 20px;
+    }
+    .our-team ul li{
+        padding: 5px 5px;
+    }
+    .footer-content{
+    }
+    .copyright{
+        font-size: 11px;
+    }
+    .social{
+        padding: 15px 0 10px 35%;
+    }
+    .our-clients{
+        width: 78%;        
+    }
+    .project-item{
+        margin-left: 2% !important;
+    }
+}
